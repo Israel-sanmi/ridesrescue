@@ -7,7 +7,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 const MidII = () => {
   return (
     <div className=" relative bg-black py-12 md:py-26 px-10 md:px-20 ">
-      <div className="w-80 h-80 bg-[#ffe082] blur-[110px] opacity-25 rounded-[300px] mx-auto z-20 absolute left-32 top-20" />
+      <div className="md:w-80 w-20 sm:w-40 h-20 hidden sm:block sm:h-40 md:h-80 bg-[#ffe082] blur-[110px] opacity-25 rounded-[300px] mx-auto z-20 absolute" />
       <div className="flex md:flex-row flex-col gap-2 justify-between items-center">
         <div className="p-2 w-full md:w-1/2">
           <h1 className="text-4xl md:text-5xl font-bold max-w-full md:text-left text-center md:max-w-[900px] mx-auto bg-gradient-to-r from-white to-[#ffe082] bg-clip-text text-transparent">

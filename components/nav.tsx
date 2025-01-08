@@ -4,9 +4,9 @@ import { IoMdMenu } from "react-icons/io";
 
 const NavBaar = () => {
   return (
-    <div className="w-full fixed z-20 py-3">
+    <div className="w-[100vw] fixed z-20 py-3">
       <div className="w-[85%] bg-[#191f24cc] flex items-center justify-between p-2 rounded-[100px] backdrop-blur-[10px] mx-auto">
-        <h1 className="text-white font-semibold pl-4 text-xl">RideRescue</h1>
+        <h1 className="text-white font-semibold pl-4 text-xs sm:text-xl">RideRescue</h1>
         <div className="lg:block hidden">
           <ul className="text-xs text-white flex items-center gap-5">
             <li>Services</li>

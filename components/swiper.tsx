@@ -35,7 +35,7 @@ const Carousel = () => {
           disableOnInteraction: false,
         }}
         breakpoints={{
-          320: {
+          120: {
             slidesPerView: 1,
             spaceBetween: 10,
           },

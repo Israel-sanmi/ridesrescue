@@ -6,7 +6,7 @@ import qr from "@/public/assets/landing-page/qr.webp";
 const Mid = () => {
   return (
     <div className=" relative bg-black py-12 md:py-26 px-10 md:px-20 ">
-      <div className="w-80 h-80 bg-[#61BBC7] blur-[110px] opacity-25 rounded-[300px] left-32 top-20 mx-auto z-20 absolute" />
+      <div className="md:w-80 w-20 hidden sm:block sm:w-40 h-20 sm:h-40 md:h-80 bg-[#61BBC7] blur-[110px] opacity-25 rounded-[300px] mx-auto z-20 absolute" />
       <div className="flex md:flex-row flex-col gap-2 justify-between items-center">
         <video
           autoPlay
