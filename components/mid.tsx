@@ -26,10 +26,10 @@ const Mid = () => {
             station or the garage for vehicle services anymore? It’s 2024 –
             where RidesRescue comes to you.
           </p>
-          <div className="bg-[#21292F] cursor-pointer max-w-full sm:max-w-[270px] flex sm:justify-normal justify-center items-center gap-3 py-1 px-4 rounded-[10px] mt-5">
+          {/* <div className="bg-[#21292F] cursor-pointer max-w-full sm:max-w-[270px] flex sm:justify-normal justify-center items-center gap-3 py-1 px-4 rounded-[10px] mt-5">
             <Image src={qr} alt="qr-code" priority />
             <p className="text-white font-semibold text-sm">Scan to download</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

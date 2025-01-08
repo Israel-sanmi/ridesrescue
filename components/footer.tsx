@@ -15,10 +15,10 @@ const Footer = () => {
           <h1 className="text-white md:text-left text-center font-semibold pl-0 md:pl-4 mb-5 text-xl">
             RideRescue
           </h1>
-          <div className="flex items-center gap-1 ">
+          {/* <div className="flex items-center gap-1 ">
             <Image src={app} alt="app" className="max-w-[132px]" />
             <Image src={google} alt="google" className="max-w-[132px]" />
-          </div>
+          </div> */}
         </div>
         <div className="flex  gap-5">
           <ul className="text-[#7E878E] text-sm font-normal flex flex-col gap-2">
@@ -41,7 +41,7 @@ const Footer = () => {
       <hr className="my-10 bg-[#323E48] border border-[#323E48]" />
       <div className="flex sm:flex-row flex-col items-center gap-2 justify-between">
         <div className="text-[#7E878E] text-sm font-normal flex items-center gap-5">
-          <p>© 2024 CAFU. All Rights Reserved</p>
+          <p>© 2024 RidesRescue. All Rights Reserved</p>
           <p>Terms</p>
           <p>Privacy</p>
         </div>

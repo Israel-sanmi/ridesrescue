@@ -17,9 +17,9 @@ export default function Home() {
       <Carousel />
       <Mid />
       <MidII />
-      <Buzz />
+      {/* <Buzz /> */}
       <Questions />
-      <Bottom/>
+      {/* <Bottom/> */}
       <Footer/>
     </div>
   );
